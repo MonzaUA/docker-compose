@@ -2,7 +2,6 @@ version: "3.9"
 services:
   server:
     image: nginx:latest
-    container_name: website-test
     volumes:
       - ./html:/usr/share/nginx/html
     ports:
